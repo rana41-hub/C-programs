@@ -45,7 +45,7 @@ void insert() {
 
     if (front == -1) // first insertion
         front = 0;
-    rear++;
+    rear++; 
     queue[rear] = n;
 
     printf("%d inserted into the queue\n", n);
@@ -76,3 +76,4 @@ void display() {
     }
     printf("\n");
 }
+ 
