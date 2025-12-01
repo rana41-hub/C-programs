@@ -89,6 +89,7 @@ void create() {
 }
 
 void display1() {
+    
     if (start == NULL) {
         printf("Linked list not found\n");
     } else {
