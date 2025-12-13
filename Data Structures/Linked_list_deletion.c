@@ -266,5 +266,3 @@ void delete_middle() {
     printf("Deleted node is %d\n", temp->data);
     free(temp);
 }
-
-
